@@ -10,3 +10,14 @@
     margin: 0;
     padding: 0;
 }
+
+.food-chart-background {
+    background-color: palette.$third;
+    min-height: 100vh;
+    height: fit-content;
+    max-height: 200%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
