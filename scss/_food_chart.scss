@@ -2,6 +2,18 @@
 
 .food-chart-title-card {
     width: 40vw;
+    height: 35vh;
+    background-color: palette.$secondary;
+    color: palette.$third;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin: 3rem;
+    padding: 0;
+}
+
+.food-chart-days-card {
+    width: 40vw;
     height: 80vh;
     background-color: palette.$secondary;
     color: palette.$third;
@@ -18,7 +30,7 @@
 }
 
 .food-chart-day-text {
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
