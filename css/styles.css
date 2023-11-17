@@ -42,6 +42,13 @@
   border-radius: 20px;
 }
 
+.header-food_chart {
+  height: 17vh;
+  background-color: #AFD2B3;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+}
+
 .form-card {
   width: 40vw;
   height: 35vh;
