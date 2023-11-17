@@ -43,9 +43,9 @@
 }
 
 .header-food_chart {
-  height: 17vh;
+  height: 15vh;
   background-color: #AFD2B3;
-  margin-top: 1.5rem;
+  margin-top: 2em;
   border-radius: 20px;
 }
 
@@ -97,19 +97,27 @@
 
 .food-chart-days-card {
   width: 40vw;
-  height: 80vh;
+  height: 100vh;
   background-color: #F9FFF8;
   color: #77967B;
   border-radius: 20px;
   font-weight: bold;
   font-family: "Inter", sans-serif;
-  margin: 3rem;
+  margin: 1rem;
   padding: 0;
 }
 
 .food-chart-text {
   font-weight: bold;
   letter-spacing: 2px;
+  margin: auto;
+}
+
+.food-chart-title-text {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .food-chart-day-text {

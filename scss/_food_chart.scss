@@ -14,19 +14,27 @@
 
 .food-chart-days-card {
     width: 40vw;
-    height: 80vh;
+    height: 100vh;
     background-color: palette.$secondary;
     color: palette.$third;
     border-radius: 20px;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    margin: 3rem;
+    margin: 1rem;
     padding: 0;
 }
 
 .food-chart-text {
     font-weight: bold;
     letter-spacing: 2px;
+    margin: auto;
+}
+
+.food-chart-title-text {
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .food-chart-day-text {
