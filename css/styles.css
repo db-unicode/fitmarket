@@ -96,15 +96,17 @@
 }
 
 .food-chart-days-card {
-  width: 40vw;
-  height: 100vh;
+  width: 50vw;
+  min-height: 90vh;
+  max-height: 90vh;
   background-color: #F9FFF8;
   color: #77967B;
   border-radius: 20px;
   font-weight: bold;
   font-family: "Inter", sans-serif;
   margin: 1rem;
-  padding: 0;
+  padding: 3rem;
+  overflow-y: scroll;
 }
 
 .food-chart-text {
@@ -123,6 +125,7 @@
 .food-chart-day-text {
   font-weight: normal;
   letter-spacing: 1px;
+  overflow-y: auto;
 }
 
 ul {
