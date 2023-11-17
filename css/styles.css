@@ -6,7 +6,25 @@
   color: #F9FFF8;
 }
 
+.main-food-chart-title {
+  font-family: "Newsreader", serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #F9FFF8;
+}
+
 .form-page-background {
+  background-color: #77967B;
+  min-height: 100vh;
+  height: fit-content;
+  max-height: 200%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.food-chart-background {
   background-color: #77967B;
   min-height: 100vh;
   height: fit-content;
@@ -56,6 +74,23 @@
 .form-accept-button:hover {
   background-color: #AFD2B3;
   color: #F9FFF8;
+}
+
+.food-chart-title-card {
+  width: 40vw;
+  height: 35vh;
+  background-color: #F9FFF8;
+  color: #77967B;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  margin: 3rem;
+  padding: auto;
+}
+
+.food-chart-text {
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */
